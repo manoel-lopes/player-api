@@ -1,0 +1,19 @@
+{
+  "compilerOptions": {
+    "baseUrl": "./src",
+    "outDir": "./dist",
+    "target": "esnext",
+    "module": "commonjs",
+    "strict": false,
+    "noImplicitAny": true,
+    "resolveJsonModule": true,
+    "esModuleInterop": true,
+    "paths": {
+      "@application/*": ["./application/*"],
+      "@domain/*": ["./domain/*"],
+      "@infra/*": ["./infra/*"]
+    }
+  },
+  "include": ["src", "tests/**/*"],
+  "exclude": ["./node_modules"]
+}
