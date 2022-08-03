@@ -2,17 +2,27 @@
 
 ## ✨ Technologies
 
--   [ ] Postgres
--   [ ] Express
--   [ ] Typescript
--   [ ] Axios
--   [ ] Prisma ORM
--   [ ] Jest
+- [ ] Postgres
+- [ ] Express
+- [ ] Typescript
+- [ ] Axios
+- [ ] Prisma ORM
+- [ ] Jest
 
+## ✨ Design Patterns
+
+- [ ] Factory Method
+- [ ] Abstract Factory
+- [ ] Monostate
+- [ ] Adapter
+- [ ] Prisma ORM
+- [ ] Jest
+- [ ] Supertest
 
 # :desktop_computer: Usage
 
 - Change the `.env.example` file on root project to on `.env` and fill with your postgres access credential and database.
+- Run `yarn prisma:migrate:run or npm run prisma:migrate:run` to create the tables on database.
 - Run `yarn or npm i` to install the project dependencies and `yarn dev or npm run dev` to start the local server
 - Starting the server The application will be available on `http://localhost:300`
 
@@ -37,7 +47,6 @@
 ### To run the migrations
 
     yarn prisma:migrate:run or npm run prisma:migrate:run
-
 
 # :speech_balloon: API Endpoints
 
